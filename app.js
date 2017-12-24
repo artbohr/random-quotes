@@ -15,7 +15,7 @@ $(document).ready(function() {
 
   function getQuote() {
     $.getJSON(
-      "https://random-quote-generator.herokuapp.com/api/quotes/random",
+      "https://talaikis.com/api/quotes/random/",
       data => {
         author = data.author;
         quote = data.quote;
